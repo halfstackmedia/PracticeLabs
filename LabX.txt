@@ -1,0 +1,45 @@
+LAB X
+
+Challenge: Write a program that processes the test scores of a class.
+
+Specifications: 
+-The student information will be stored in a file of multiple students.
+	-The file contains the ID and three test scores for the students
+	-The file must read all student information (Use ifstream!)
+	-The number of students per file will vary (hint: read until end of file)
+-Your program must
+	-Compute the average of each student's three test scores
+	-Compute the letter grade of each student (refer to "Additional info")
+	-Display this information in a table
+	-After printing the table, print:
+		-How many students are in the class
+		-The class average
+		-The ID and average of the student scoring the highest average
+-Additional info
+	-The letter grades are computed accordingly
+	A: >=90
+	B: >=80 && <90
+	C: >=70 && <80
+	D: >=60 && <70
+	F: <60
+	
+Example of an input file:
+-Contains ID, test 1, test 2, test 3 (respectively)
+5569	95	100	90
+4322	67	77	62
+7945	80	91	67
+5982	82	90	87
+
+Example of output after reading the input file:
+
+Student ID	Test1	Test2	Test3	Average	Grade
+=================================================
+5569		95		100		90		95.00	A
+4322		67		77		62		68.67	D
+7945		80		91		67		79.33	C
+5982		82		90		87		86.33	B
+
+Number of Students:	4
+Class Average: 82.23
+Student with highest average: 5569	95.00
+		
