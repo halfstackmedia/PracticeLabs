@@ -1,0 +1,20 @@
+Practice Lab 1
+===============================
+Your task: to design a program that computes a monthly insurance payment for a client given 
+	the age of the client and number of doors on the car.
+
+The problem: If a car has four doors and the driver's age is over 24, the premium is $650
+	per year and is considered "low risk."  Otherwise, the premium is $1200 per year 
+	and is considered "high risk."  There is a $5 monthly service charge.  Calculate
+	the monthly payment and print the risk.
+
+Output: Your output should have monthly payment and risk-look similar to:
+	PAYMENT: $1000.00 /MONTH
+	RISK: HIGH RISK
+
+Advice: Use variables to store data such as the number of doors on the car and age of driver.
+	Use if-else statements for flow control of the program.
+	Write a formula that calculates monthly payment.
+
+Completion: After completing this lab, verify your code with the posted code in the GitHub
+	Repository (titled "Lab1Code.txt").  This file will contain the full program.
